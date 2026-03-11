@@ -1,0 +1,45 @@
+# Philiprehberger.RandomReadableString
+
+Generate human-readable random strings like `"swift-river-42"` — great for slugs, identifiers, and placeholders.
+
+## Install
+
+```bash
+dotnet add package Philiprehberger.RandomReadableString
+```
+
+## Usage
+
+```csharp
+using Philiprehberger.RandomReadableString;
+
+// Default: 3 words, "-" separator
+ReadableRandom.Generate();          // "swift-river-42"
+ReadableRandom.Generate();          // "bold-eagle-17"
+ReadableRandom.Generate();          // "calm-tide-83"
+
+// Custom word count
+ReadableRandom.Generate(wordCount: 2); // "happy-shore-56"
+ReadableRandom.Generate(wordCount: 4); // "sunny-magic-lake-31"
+
+// Custom separator
+ReadableRandom.Generate(separator: "_"); // "quick_frost_74"
+ReadableRandom.Generate(separator: " "); // "pale ocean 19"
+```
+
+## API
+
+### `ReadableRandom`
+
+| Method | Description |
+|--------|-------------|
+| `Generate(int wordCount = 3, string separator = "-")` | Return a random readable string made of `wordCount` words plus a trailing 2-digit number, joined by `separator` |
+
+**Notes:**
+- The last token is always a random 2-digit number (10–99).
+- Words are drawn from a built-in list of 50 adjectives and 50 nouns.
+- Thread-safe.
+
+## License
+
+MIT
