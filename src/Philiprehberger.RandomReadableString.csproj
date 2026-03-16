@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Philiprehberger.RandomReadableString</PackageId>
-    <Version>0.1.2</Version>
+    <Version>0.1.3</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Generate human-readable random strings like "sunny-falcon-42"</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
