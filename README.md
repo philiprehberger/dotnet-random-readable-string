@@ -44,6 +44,12 @@ ReadableRandom.Generate(separator: " "); // "pale ocean 19"
 - Words are drawn from a built-in list of 50 adjectives and 50 nouns.
 - Thread-safe.
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.RandomReadableString.csproj --configuration Release
+```
+
 ## License
 
 MIT
