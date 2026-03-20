@@ -6,7 +6,7 @@
 
 Generate human-readable random strings like `"swift-river-42"` — great for slugs, identifiers, and placeholders.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.RandomReadableString
