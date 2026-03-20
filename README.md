@@ -31,6 +31,24 @@ ReadableRandom.Generate(separator: "_"); // "quick_frost_74"
 ReadableRandom.Generate(separator: " "); // "pale ocean 19"
 ```
 
+### Custom Word Count
+
+```csharp
+using Philiprehberger.RandomReadableString;
+
+ReadableRandom.Generate(2);  // "sunny-falcon"
+ReadableRandom.Generate(4);  // "bright-red-swift-mountain"
+```
+
+### Custom Separator
+
+```csharp
+using Philiprehberger.RandomReadableString;
+
+ReadableRandom.Generate(3, "_");  // "cool_river_42"
+ReadableRandom.Generate(3, " "); // "happy cloud 17"
+```
+
 ## API
 
 ### `ReadableRandom`

@@ -1,5 +1,6 @@
 namespace Philiprehberger.RandomReadableString;
 
+/// <summary>Generates random human-readable strings composed of adjective-noun pairs and a numeric suffix.</summary>
 public static class ReadableRandom
 {
     private static readonly string[] Adjectives =
@@ -27,6 +28,10 @@ public static class ReadableRandom
     private static readonly Random Rng = new();
     private static readonly object Lock = new();
 
+    /// <summary>Generates a random readable string such as <c>"bold-river-42"</c>.</summary>
+    /// <param name="wordCount">Number of words to include (minimum 1).</param>
+    /// <param name="separator">Separator placed between words and the trailing number.</param>
+    /// <returns>A random human-readable string.</returns>
     public static string Generate(int wordCount = 3, string separator = "-")
     {
         if (wordCount < 1)
