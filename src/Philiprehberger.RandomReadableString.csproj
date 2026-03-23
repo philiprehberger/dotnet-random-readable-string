@@ -7,9 +7,9 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.RandomReadableString</PackageId>
-    <Version>0.1.6</Version>
+    <Version>0.1.7</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Generate human-readable random strings like "sunny-falcon-42"</Description>
+    <Description>Generate human-readable random strings like "swift-river-42" — great for slugs, identifiers, and placeholders.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/philiprehberger/dotnet-random-readable-string</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
