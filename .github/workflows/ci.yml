@@ -17,6 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
       - run: dotnet restore src/Philiprehberger.RandomReadableString.csproj
       - run: dotnet build src/Philiprehberger.RandomReadableString.csproj --configuration Release --no-restore
+      - run: dotnet test tests/Philiprehberger.RandomReadableString.Tests/Philiprehberger.RandomReadableString.Tests.csproj --configuration Release --no-restore
 
   publish:
     needs: build
