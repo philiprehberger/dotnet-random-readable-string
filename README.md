@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-random-readable-string/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-random-readable-string/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.RandomReadableString.svg)](https://www.nuget.org/packages/Philiprehberger.RandomReadableString)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-random-readable-string)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Generate human-readable random strings like `"swift-river-42"` — great for slugs, identifiers, and placeholders.
 
@@ -70,4 +71,4 @@ dotnet build src/Philiprehberger.RandomReadableString.csproj --configuration Rel
 
 ## License
 
-MIT
+[MIT](LICENSE)

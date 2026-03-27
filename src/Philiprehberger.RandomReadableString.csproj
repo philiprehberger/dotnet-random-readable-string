@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.RandomReadableString</PackageId>
-    <Version>0.1.8</Version>
+    <Version>0.1.9</Version>
     <Authors>Philip Rehberger</Authors>
     <Description>Generate human-readable random strings like "swift-river-42" — great for slugs, identifiers, and placeholders.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
