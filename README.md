@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-random-readable-string/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-random-readable-string/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.RandomReadableString.svg)](https://www.nuget.org/packages/Philiprehberger.RandomReadableString)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-random-readable-string)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-random-readable-string)](https://github.com/philiprehberger/dotnet-random-readable-string/commits/main)
 
 Generate human-readable random strings like `"swift-river-42"` — great for slugs, identifiers, and placeholders.
 
@@ -68,6 +67,24 @@ ReadableRandom.Generate(3, " "); // "happy cloud 17"
 ```bash
 dotnet build src/Philiprehberger.RandomReadableString.csproj --configuration Release
 ```
+
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-random-readable-string)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-random-readable-string/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-random-readable-string/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
 
 ## License
 
